@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://visitmaldives.s3.amazonaws.com/yYjrjjYP/c/ngmwxpcl-slide.jpg);
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.nav {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: aqua; */
+}
+
+.lnav {
+    height: 100%;
+    width: 50%;
+    /* background-color: yellow; */
+
+}
+
+.rnav {
+    width: 50%;
+}
+
+
+.rnav>ul>li {
+    list-style: none;
+    padding: 16px;
+    color: white;
+
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: 1s all;
+    
+}
+
+.box1 {
+    height: 380px;
+    width: 200px;
+    transform: perspective(600px) rotateY(20deg);
+    box-shadow:0 0 30px black;
+    border-radius: 20px;
+    background-color: aquamarine;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://images.unsplash.com/photo-1514282401047-d79a71a590e8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWFsZGl2ZXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60);
+}
+
+.box2 {
+    height: 380px;
+    width: 200px;
+    transform: perspective(600px) rotateY(20deg);
+    box-shadow:0 0 30px black;
+    border-radius: 20px;
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://images.unsplash.com/photo-1523632117739-12cc7fa95ad0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=284&q=80);
+}
+
+.box3 {
+    height: 380px;
+    width: 200px;
+    transform: translateX(0);
+    box-shadow:0 0 30px black;
+    border-radius: 20px;
+    background-color: blue;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://images.unsplash.com/photo-1578922746465-3a80a228f223?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=327&q=80);
+}
+
+.box4 {
+    height: 380px;
+    width: 200px;
+    transform: perspective(600px) rotateY(160deg);
+    box-shadow:0 0 30px black;
+    border-radius: 20px;
+    background-color: lightcyan;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://images.unsplash.com/photo-1512100356356-de1b84283e18?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWFsZGl2ZXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60);
+}
+
+.box5 {
+    height: 380px;
+    width: 200px;
+    transform: perspective(600px) rotateY(160deg);
+    box-shadow:0 0 30px black;
+    border-radius: 20px;
+    background-color: brown;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://images.unsplash.com/photo-1547528114-f4daa226e256?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8bWFsZGl2ZXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60);
+
+}
+
+.box1:hover{
+    scale: 1.2;
+
+}
+.box2:hover{
+    scale: 1.2;
+    
+}
+.box3:hover{
+    scale: 1.2;
+}
+.box4:hover{
+    scale: 1.2;
+}
+.box5:hover{
+    scale: 1.2;
+}
+
+h1{
+    position: absolute;
+    left: 33%;
+    top: 5%;
+    text-align: center;
+    font-family: 'Carattere', cursive;
+    font-size: 50px;
+    /* font-weight: 900; */
+    /* background-color: transparent; */
+    /* color: rgb(43, 142,142); */
+    color: white;
+    text-shadow: 0 0 20px black ;
+    -webkit-text-stroke: white;
+    transition: 1s all;
+
+}
+
+h1:hover{
+    transform: scale(1.3);
+    color: aquamarine;
+    /* text-shadow: 0 0 30px black; */
+}
